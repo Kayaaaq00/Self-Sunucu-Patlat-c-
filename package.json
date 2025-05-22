@@ -1,0 +1,18 @@
+{
+  "name": "sunucu-patlatici",
+  "version": "1.0.0",
+  "description": "Noname Sunucu Patlatıcı",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "Noname"
+  ],
+  "author": "Noname",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "discord.js-selfbot-v13": "^3.3.0"
+  }
+}

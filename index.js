@@ -13,7 +13,7 @@ for (let sira = 0; sira < ayarlar.token.length; sira++) {
     bot.on("messageCreate", async (mesaj) => {
         if (mesaj.author.bot || !mesaj.guild) return;
         if (!ayarlar.owner.includes(mesaj.author.id)) return;
-        if (mesaj.content.toLocaleLowerCase() === `${ayarlar.prefix}vur`) {
+        if (mesaj.content.toLocaleLowerCase() === `${ayarlar.prefix[0]}vur`) {
             console.log("Vur komutu çalıştırıldı.")
             await RolSil(ayarlar.guildID, sira, ayarlar.token.length)
             await KanalSil(ayarlar.guildID, sira, ayarlar.token.length)
